@@ -43,6 +43,11 @@ https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.cs
 http://fonts.googleapis.com/icon?family=Material+Icons
 
 ## Run it
+#### Install
+`npm install`
+#### Specific packages
+`npm install --save mongoose mongodb mongodb-core nodemon lodash express express-graphql body-parser webpack webpack-dev-middleware apollo apollo-client react react-apollo react-router graphql graphql-tag graphql-date babel-loader babel-preset-react express-graphql`
+#### Start it up
 `npm run local` spools up the dev instance of the application located at http://localhost:3000/#/
 
 # Thanks for taking a peek
