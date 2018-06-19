@@ -1,8 +1,8 @@
 ## I used none of your repository, aside from the README file.
-Yes, while that is true, and perhaps shocking the rules and guidelines didn't say anything against that, so...
+Yes, while that is true, and perhaps a bit of a shocker, the rules and guidelines didn't say anything against that, so...
 Part of the reasoning for it is right off the bat, I was troubleshooting deprecation issues with various packages that were used in the assignment package.  Specifically, one thing comes to mind and that was the Hapi server setup; I had to make some minor updates to the server syntax just to stand up the instance, but did get it going.
 
-In your /server/src/index.js, you can square away the machine by using this update:
+In your /server/src/index.js, moving forward you can square away the machine by using this update:
 `
 const Hapi = require('hapi');
 const server = new Hapi.Server({
@@ -16,7 +16,7 @@ const server = new Hapi.Server({
 Anyway...
 
 ## But then I started digging in more....
-That's when I saw that you had some serious code setup not only for a 'mock' database (I believe the comment was 'poor mans database' within the code...I did LOL, btw. :) and all set up with some hard-coded JSON.  And, this is where I stopped looking.  Assuming that I'd have to figure out more of what was done and wire up into whatever other setups were going on (assuming things like Axios would have to be used to make the adds/deletes/updates to the hard-coded JSON), I figured I'd show off a React setup using your typical stack technologies. I wiped the slate clean and went with an Apollo/GraphQL/MongoDB/React setup.  The MondoDB is using an Amazon AWS free, cloud-based database, using MLab.com.  It's a fast setup, mimics more future tech and transitions/direction of many companies.  My setup also trims down on files, etc.
+That's when I saw that you had some serious code setup not only for a 'mock' database (I believe the comment was 'poor man's database' within the code...I did LOL, btw. :) and all set up with some hard-coded JSON.  And, this is where I stopped looking.  Assuming that I'd have to figure out more of what was done and wire up into whatever other setups were going on (assuming things like Axios would have to be used to make the adds/deletes/updates to the hard-coded JSON), I figured I'd show off a React setup using your typical stack technologies. I wiped the slate clean and went with an Apollo/GraphQL/MongoDB/React setup.  The MondoDB is using an Amazon AWS free, cloud-based database, using MLab.com.  It's a fast setup, mimics more future tech and transitions/direction of many companies.  My setup also trims down on files, etc.
 
 ## Is it perfect? No.
 I fully acklowledge through my own observations that there are little idiocincricies within the submission. Certain error-handling, date formatting, or Date Type usage (or lack of it), some state controllers, etc could all be tightened up and hammered out.  Just doing what I can with being informed to knock it out in 4-6hrs. :) In a simplistic form, I definitely think it shows the basic functionality that was asked for to begin with; it goes without saying that during production builds, a real product better survive pen tests appropriately and should be coded towards to begin with.  You can view it in action here:  `https://youtu.be/lrVTGfBZnF4`
