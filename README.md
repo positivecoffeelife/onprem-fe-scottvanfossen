@@ -39,11 +39,14 @@ express-graphql
 body-parser
 webpack
 webpack-dev-middleware
+####
 https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css
+####
 http://fonts.googleapis.com/icon?family=Material+Icons
 
 ## Run it
 #### Install
+cd to the root directory, then 
 `npm install`
 #### Specific packages
 `npm install --save mongoose mongodb mongodb-core nodemon lodash express express-graphql body-parser webpack webpack-dev-middleware apollo apollo-client react react-apollo react-router graphql graphql-tag graphql-date babel-loader babel-preset-react express-graphql`
