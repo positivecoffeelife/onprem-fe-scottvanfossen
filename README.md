@@ -22,27 +22,25 @@ That's when I saw that you had some serious code setup not only for a 'mock' dat
 I fully acklowledge through my own observations that there are little idiocincricies within the submission. Certain error-handling, date formatting, or Date Type usage (or lack of it), some state controllers, etc could all be tightened up and hammered out.  Just doing what I can with being informed to knock it out in 4-6hrs. :) In a simplistic form, I definitely think it shows the basic functionality that was asked for to begin with; it goes without saying that during production builds, a real product better survive pen tests appropriately and should be coded towards to begin with.  You can view it in action here:  `https://youtu.be/lrVTGfBZnF4`
 
 ## Packages I Used
-apollo-client
-react
-react-apollo
-react-router
-graphql
-graphql-tag
-graphql-date
-mongoose
-mongodb
-mongodb-core
-nodemon
-lodash
-express
-express-graphql
-body-parser
-webpack
-webpack-dev-middleware
-####
-https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css
-####
-http://fonts.googleapis.com/icon?family=Material+Icons
+- apollo-client
+- react
+- react-apollo
+- react-router
+- graphql
+- graphql-tag
+- graphql-date
+- mongoose
+- mongodb
+- mongodb-core
+- nodemon
+- lodash
+- express
+- express-graphql
+- body-parser
+- webpack
+- webpack-dev-middleware
+- https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css
+- http://fonts.googleapis.com/icon?family=Material+Icons
 
 ## Run it
 #### Install
