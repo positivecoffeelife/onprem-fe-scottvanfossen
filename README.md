@@ -48,6 +48,14 @@ cd to the root directory, then
 `npm install`
 #### Specific packages
 `npm install --save mongoose mongodb mongodb-core nodemon lodash express express-graphql body-parser webpack webpack-dev-middleware apollo apollo-client react react-apollo react-router graphql graphql-tag graphql-date babel-loader babel-preset-react express-graphql`
+
+#### You'll need this file
+Create a file under the root directory called `.babelrc` and within it, place the contents: `{
+    "presets": [
+      "react"
+    ]
+  }`
+
 #### Start it up
 `npm run local` spools up the dev instance of the application located at http://localhost:3000/#/
 
