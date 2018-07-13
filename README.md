@@ -54,7 +54,7 @@ Create a file under the root directory called `.babelrc` and within it, place th
     "presets": [
       "react"
     ]
-  }`
+  }` then save the file.
 
 #### Start it up
 `npm run local` spools up the dev instance of the application located at http://localhost:3000/#/
